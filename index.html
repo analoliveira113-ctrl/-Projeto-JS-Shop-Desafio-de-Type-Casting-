@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Checkout Inteligente</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Checkout Inteligente</h1>
+    <h5>Ana Laura Paulino Oliviera</h5>
+
+    <label>Preço do Produto:</label>
+    <input type="text" id="preco" value="125.50">
+
+    <label>Quantidade:</label>
+    <input type="text" id="quantidade" value="3">
+
+    <label>Possui Cupom?</label>
+    <select id="cupom">
+      <option value="true">Sim</option>
+      <option value="false">Não</option>
+    </select>
+
+    <button onclick="calcular()">Finalizar Compra</button>
+
+    <h2 id="resultado"></h2>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
